@@ -323,7 +323,7 @@ message.channel.sendMessage(`**${argresult}** : تم تغيير الووتشين
 if (message.content.startsWith(prefix + 'listening')) {
 if (message.author.id !== '228174175007801354') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setActivity(argresult, {type : 'listening'});
-message.channel.sendMessage(`**${argresult}**: تم تغير الاستماع الي`)
+message.channel.sendMessage(`**${argresult}**: .تم تغير الاستماع الي`)
 }
 
 });
