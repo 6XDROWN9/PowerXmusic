@@ -297,7 +297,7 @@ client.user.setGame(argresult);
 
 if (message.content.startsWith(prefix + 'streem')) {
 if (message.author.id !== '228174175007801354') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
-client.user.setGame(argresult, "http://twitch.tv/y04zgamer");
+client.user.setGame(argresult, "https://twitch.tv/xdrown79");
  message.channel.sendMessage(`**${argresult}** :تم تغيير الحالة الى ستريمنج`)
 } else
 
